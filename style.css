@@ -1,0 +1,70 @@
+body {
+  background-color: black;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+  margin: auto;
+  flex-direction: column;
+  width: 60vw;
+}
+
+.spacing {
+  margin: 2vh;
+}
+
+input {
+  height: 5vh;
+  padding-left: 0.5rem;
+}
+
+button {
+  /* width: 5%; */
+  /* height: 1.5rem; */
+  margin: auto;
+  color: black;
+  background-color: white;
+  padding: 5px;
+  border: 2px solid white;
+}
+
+/* .input :focus {
+  outline: none;
+} */
+.round {
+  border-radius: 3rem;
+}
+/* input::placeholder {
+  padding: 10px 10px;
+} */
+.line {
+  color: rgb(207, 206, 248);
+  background-color: aliceblue;
+  width: 250px;
+  height: 3px;
+}
+
+h1 {
+  text-align: left;
+  margin-bottom: 1vh;
+  color: aliceblue;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+footer {
+  color: rgb(207, 206, 248);
+  position: absolute;
+  bottom: 2vh;
+  font-size: 1.2rem;
+  width: 99vw;
+  margin: auto;
+  text-align: center;
+}
